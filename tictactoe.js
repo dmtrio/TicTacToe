@@ -5,12 +5,6 @@ var tictactoe = function() {
   let player = firstPlayer? 'One' : 'Two'
   let bDisplay
 
-  // let b = {
-  //   'a': {'1': '  ', '2': '  ', '3': '  '},
-  //   'b': {'1': '  ', '2': '  ', '3': '  '},
-  //   'c': {'1': '  ', '2': '  ', '3': '  '}
-  // }
-
   let b = [['  ', '  ', '  '], ['  ', '  ', '  '], ['  ', '  ', '  ']]
 
   let updateDisplay = function() {
@@ -57,7 +51,6 @@ var tictactoe = function() {
       }
   }
 
-
   // data listneer
   updateDisplay()
   console.log(bDisplay)
@@ -75,7 +68,6 @@ var tictactoe = function() {
       player = firstPlayer? 'One' : 'Two'
       console.log(`Player\'s ${player} turn`)
     })
-
   });
 }
 console.log('To play enter coords 00 for the top left corner 22 for the bottom right')
