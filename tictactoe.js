@@ -78,5 +78,5 @@ var tictactoe = function() {
 
   });
 }
-
+console.log('To play enter coords 00 for the top left corner 22 for the bottom right')
 tictactoe()
